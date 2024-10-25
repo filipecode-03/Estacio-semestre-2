@@ -6,7 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    Welcome <?php echo $_POST["name"]; ?>
-    Your email address is: <?php echo $_POST["email"]; ?>
+    <?php 
+        $n = $_POST["name"];
+        $email = $_POST["email"];
+        echo "Welcome $n<br>";
+        echo "Your email address is: $email"; 
+    ?>
 </body>
 </html>
