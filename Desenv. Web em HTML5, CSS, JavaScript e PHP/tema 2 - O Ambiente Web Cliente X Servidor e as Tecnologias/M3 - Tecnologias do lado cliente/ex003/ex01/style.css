@@ -1,0 +1,7 @@
+#paragrafo_exemplo {
+    color: #ff0000;/* vermelho */
+}
+/* OU */
+p {
+    color: #ff0000; /* vermelho */ 
+}
