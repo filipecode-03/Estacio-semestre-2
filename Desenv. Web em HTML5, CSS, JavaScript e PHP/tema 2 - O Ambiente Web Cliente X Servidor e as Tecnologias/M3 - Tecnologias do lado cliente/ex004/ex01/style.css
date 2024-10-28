@@ -1,0 +1,17 @@
+body {
+    background-color: linen;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 40px;
+}
+
+h2 {
+    color: maroon;
+    margin-left: 70px;
+}
+
+p {
+    text-align: justify;
+}
