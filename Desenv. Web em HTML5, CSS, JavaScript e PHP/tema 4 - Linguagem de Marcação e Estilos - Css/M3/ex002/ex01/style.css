@@ -1,15 +1,25 @@
-.img {
+div#main {
+    margin: auto;
     width: 400px;
-    height: 200px;
+    background-color: orange;
+    border: 1px solid #000;
+    padding: 10px;
 }
-
+.img {
+    width: 394px;
+    height: 200px;
+    border: 3px inset yellow;
+}
 #container-texto {
-    width: 400px;
+    width: 382px;
     background-color: blue;
     height: 150px;
     overflow: auto;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 4px dashed grey;
 }
-
 .texto {
     font-weight: bold;
     text-decoration: underline;
