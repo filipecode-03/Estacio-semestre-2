@@ -1,0 +1,3 @@
+const executar = () => {
+    getUsers("retorno")
+}
